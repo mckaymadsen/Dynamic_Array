@@ -2,7 +2,7 @@
 A dynamic array class. Designed as practice to mimic a dynamic container.
 
 
-When run with teh included main file, this is the expected output.
+When run with the included main file, this is the expected output.
 
 Doubling to : 4
 Doubling to : 8
