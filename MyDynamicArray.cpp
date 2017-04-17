@@ -54,7 +54,9 @@ public:
             int *new_array;   
             std::cout << "Doubling to : " << size << std::endl;
             new_array = new int[size*2]; 
-            for (int i = 0; i < count; i++) { new_array[i] = array[i]; }
+            for (int i = 0; i < count; i++) { 
+                new_array[i] = array[i]; 
+            }
             delete[] array;    
             array = new_array;  
         }    
@@ -66,7 +68,9 @@ public:
         if (count <= size/4) { 
             int *new_array = new int[count /= 2];
             std::cout << "Reducing to : " << size << std::endl;
-            for (int i = 0; i < count; i++) { new_array[i] = array[i]; }
+            for (int i = 0; i < count; i++) { 
+                new_array[i] = array[i];
+            }
             delete[] array;    
             array = new_array;  
         }    
